@@ -1,6 +1,6 @@
-package certification;
+package certification.notebook;
 
-public class NotebookFloor {
+public class NotebookFloor  {
     private String floor;
 
     private NotebookFloor(String floor){
@@ -28,6 +28,6 @@ public class NotebookFloor {
 
     @Override
     public String toString() {
-        return String.format("%s",floor);
+        return String.format("_%s",floor);
     }
 }

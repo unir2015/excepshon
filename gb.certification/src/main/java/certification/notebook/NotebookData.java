@@ -1,7 +1,7 @@
-package certification;
+package certification.notebook;
 
 
-public class NotebookData {
+public class NotebookData  {
     private String day;
     private String month;
     private String year;
@@ -51,6 +51,6 @@ public class NotebookData {
 
     @Override
     public String toString() {
-        return String.format("%s.%s.%s", day,month,year);
+        return String.format("_%s.%s.%s", day,month,year);
     }
 }

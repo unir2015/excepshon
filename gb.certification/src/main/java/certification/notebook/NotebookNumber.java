@@ -1,6 +1,6 @@
-package certification;
+package certification.notebook;
 
-public class NotebookNumber {
+public class NotebookNumber  {
     private String number;
 
     private NotebookNumber(String number){
@@ -23,6 +23,6 @@ public class NotebookNumber {
 
     @Override
     public String toString() {
-        return String.format("%s",number);
+        return String.format("_%s",number);
     }
 }

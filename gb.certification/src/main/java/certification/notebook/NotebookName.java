@@ -1,7 +1,7 @@
-package certification;
+package certification.notebook;
 
-public class NotebookName {
-
+public class NotebookName  {
+    private int id;
     private  String name;
     private String surName;
     private String midName;
@@ -10,6 +10,7 @@ public class NotebookName {
         this.name = name;
         this.surName = surName;
         this.midName = midName;
+        this.id= id + 1;
     }
 
 //    public Date basicData(String name, String surName, String midName){
@@ -65,7 +66,7 @@ public class NotebookName {
 
     @Override
     public String toString() {
-        return String.format("%s_%s_%s", name,surName,midName);
+        return String.format("%d_%s_%s_%s",id, name,surName,midName);
 
     }
 }
